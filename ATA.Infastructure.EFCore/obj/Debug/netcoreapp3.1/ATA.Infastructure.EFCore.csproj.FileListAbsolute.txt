@@ -1,0 +1,15 @@
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Domain.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.csprojAssemblyReference.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.AssemblyInfo.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.deps.json
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.runtimeconfig.json
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.runtimeconfig.dev.json
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.pdb
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Domain.pdb
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.csproj.CopyComplete
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.pdb
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.genruntimeconfig.cache

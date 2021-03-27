@@ -1,0 +1,9 @@
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.deps.json
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.pdb
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csprojAssemblyReference.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.AssemblyInfoInputs.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.AssemblyInfo.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.pdb
