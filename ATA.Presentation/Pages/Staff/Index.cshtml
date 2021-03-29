@@ -1,0 +1,92 @@
+﻿@page
+
+@using Microsoft.AspNetCore.Identity
+@model ATA.Presentation.Pages.Staff.IndexModel
+@{
+
+   
+    ViewData["MenuStaff"] = "current";
+    ViewData["Title"] = "مدیریت پرسنل";
+}
+
+ 
+
+<div class="card">
+    <div class="card-header">
+        <div class="float-right">
+            <a class="btn btn-success rounded-pill" asp-page="./Create"> افزودن پرسنل جدید</a>
+            </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped" id="data-table-Staff">
+
+
+                <thead>
+                    <tr>
+                        <th>کد پرسنلی</th>
+                        <th>نام و نام خانوادگی</th>
+                        <th>تاریخ استخدام</th>
+                        <th>وضعیت</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                @if (Model.staff != null)
+                {
+               @foreach (var staff in Model.staff)
+                {
+                    <tr>
+                        <td>@staff.Id</td>
+                        <td>@staff.Name</td>
+                        <td>@staff.RegisterDate.ToString("yyyy/MM/dd")</td>
+
+                        <td>
+                            @if (@staff.IsDeleted)
+                            {
+                                <i class="fa fa-check fa-2x text-danger"></i>
+                               }
+                            else
+                            {
+                                <i class="fa fa-check fa-2x text-success"></i>
+                            }
+                        </td>
+                        <td class="d-flex justify-content-center">
+                            <div class="row d-flex justify-content-center">
+                            @if (@staff.IsDeleted ==false)
+                            {
+                                <form method="post" asp-page-handler="Remove" class="">
+                                    <button class="btn al btn-danger btn-round mr-2  ">حذف پرسنل</button>
+                                    <input type="hidden" name="Id" value="@staff.Id"/>
+                                </form>
+                                <a class="btn btn-warning btn-round center-block mr-2" asp-page="./Edit" asp-route-id="@staff.Id"> ویرایش پرسنل</a>
+
+                           
+                            }
+                            else
+                            {
+                                <form method="post" asp-page-handler="Active" class="">
+                                    <button class="btn btn-success  mr-2 btn-round ">بازگردانی پرسنل</button>
+                                    <input type="hidden" name="Id" value="@staff.Id"/>
+                                </form>
+                            }
+
+                         
+
+                            </div>
+
+                        </td>
+                    </tr>
+                }
+                }
+
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+

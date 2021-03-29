@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ATA.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ATA.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATA.Application.Contracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ATA.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ATA.Application.Contracts/ATA.Application.Contracts.csproj",
+      "msbuildProject": "../ATA.Application.Contracts/ATA.Application.Contracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ATA.Application.Contracts >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\maleki\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

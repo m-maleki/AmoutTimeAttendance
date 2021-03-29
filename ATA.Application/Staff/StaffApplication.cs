@@ -26,12 +26,53 @@ namespace ATA.Application.Staff
                     Id = staff.Id,
                     Name = staff.Name,
                     RegisterDate = staff.RegisterDate,
+                    IsDeleted = staff.IsDeleted,
                     });
             }
 
             return result;
         }
-         
+
+        public void Create(CreateStaff command)
+        {
+            var staff = new Domain.StaffAgg.Staff(command.Name,command.RegisterDate);
+            _staffRepository.Create(staff);
+
+        }
+
+        public EditStaff Get(long id)
+        {
+            var staff = _staffRepository.Get(id);
+            return new EditStaff()
+            {
+                 Id= staff.Id,
+                 Name = staff.Name,
+                 RegisterDate = staff.RegisterDate
+            };
+            
+        }
+
+        public void Remove(long id)
+        {
+           var staff= _staffRepository.Get(id);
+           staff.Remove();
+           _staffRepository.Save();
+        }
+
+        public void Active(long id)
+        {
+            var staff = _staffRepository.Get(id);
+            staff.Active();
+            _staffRepository.Save();
+        }
+
+        public void Edit(EditStaff command)
+        {
+            var staff = _staffRepository.Get(command.Id);
+            staff.Edit(command.Name,command.RegisterDate );
+            _staffRepository.Save();
+        }
+
   
     }
 }

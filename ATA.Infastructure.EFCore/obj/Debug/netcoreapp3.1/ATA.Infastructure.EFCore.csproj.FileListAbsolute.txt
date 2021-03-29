@@ -13,3 +13,5 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\De
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.pdb
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\obj\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.genruntimeconfig.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Infastructure.EFCore\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb

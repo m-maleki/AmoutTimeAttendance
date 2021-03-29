@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4Ud+dlpHGfGEKv8kSLwb25N/vJNCSmtYKWixwmAreAXHnDJcGrR3X6AnmD1kIeZiLNvBmlD5Ubq/hd8OgF70Q==",
+  "dgSpecHash": "n6kwfaBnAdNVg8EpjYZP9rDnSsdyGynwNd7MnqysYQZO48KuRIOW9RSwZmZOzj5TaVijdlF6sTcRoUBXZ7A7MA==",
   "success": true,
   "projectFilePath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
   "expectedPackageFiles": [

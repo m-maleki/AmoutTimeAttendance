@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Domain", "ATA.Domain\ATA.Domain.csproj", "{165B7FA2-C559-4979-A669-4DA5EC06C24E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Domain", "ATA.Domain\ATA.Domain.csproj", "{165B7FA2-C559-4979-A669-4DA5EC06C24E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Application", "ATA.Application\ATA.Application.csproj", "{017C6176-23E5-4B24-8A73-CFF38C65C206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Application", "ATA.Application\ATA.Application.csproj", "{017C6176-23E5-4B24-8A73-CFF38C65C206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Application.Contracts", "ATA.Application.Contracts\ATA.Application.Contracts.csproj", "{377C0299-098C-4EB1-9268-35FB42DCD369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Application.Contracts", "ATA.Application.Contracts\ATA.Application.Contracts.csproj", "{377C0299-098C-4EB1-9268-35FB42DCD369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Infastructure.EFCore", "ATA.Infastructure.EFCore\ATA.Infastructure.EFCore.csproj", "{CECA8418-6EF0-4234-BBAE-BD7FF62338B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Infastructure.EFCore", "ATA.Infastructure.EFCore\ATA.Infastructure.EFCore.csproj", "{CECA8418-6EF0-4234-BBAE-BD7FF62338B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Presentation", "ATA.Presentation\ATA.Presentation.csproj", "{55DE303C-1132-4452-84D9-67C5149EF78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Infrastructure.Config", "ATA.Infrastructure.Config\ATA.Infrastructure.Config.csproj", "{0D263104-092E-4579-8088-794A190CBE59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATA.Infrastructure.Config", "ATA.Infrastructure.Config\ATA.Infrastructure.Config.csproj", "{0D263104-092E-4579-8088-794A190CBE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATA.Presentation", "ATA.Presentation\ATA.Presentation.csproj", "{2D438196-8F67-4E3A-8997-5213002AD01E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,14 @@ Global
 		{CECA8418-6EF0-4234-BBAE-BD7FF62338B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CECA8418-6EF0-4234-BBAE-BD7FF62338B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CECA8418-6EF0-4234-BBAE-BD7FF62338B9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55DE303C-1132-4452-84D9-67C5149EF78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55DE303C-1132-4452-84D9-67C5149EF78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55DE303C-1132-4452-84D9-67C5149EF78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55DE303C-1132-4452-84D9-67C5149EF78F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D263104-092E-4579-8088-794A190CBE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D263104-092E-4579-8088-794A190CBE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D263104-092E-4579-8088-794A190CBE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D263104-092E-4579-8088-794A190CBE59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D438196-8F67-4E3A-8997-5213002AD01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D438196-8F67-4E3A-8997-5213002AD01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D438196-8F67-4E3A-8997-5213002AD01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D438196-8F67-4E3A-8997-5213002AD01E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

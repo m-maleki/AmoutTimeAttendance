@@ -6,8 +6,9 @@ namespace ATA.Application.Contracts.Staff
 {
    public class StaffViewModel
     {
-        public int Id { get;  set; }
+        public long Id { get;  set; }
         public string Name { get;  set; }
         public DateTime RegisterDate {  get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

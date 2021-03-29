@@ -24,7 +24,7 @@ namespace ATA.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            BootStrapper.Config(services,Configuration.GetConnectionString("ATADB"));
+            BootStrapper.Config(services, Configuration.GetConnectionString("ATADB"));
             services.AddRazorPages();
         }
 
@@ -52,6 +52,7 @@ namespace ATA.Presentation
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapDefaultControllerRoute();
             });
         }
     }

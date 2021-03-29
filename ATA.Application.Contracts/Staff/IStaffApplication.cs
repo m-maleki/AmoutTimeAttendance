@@ -8,5 +8,13 @@ namespace ATA.Application.Contracts.Staff
     {
         List<StaffViewModel> List();
 
+        void Create(CreateStaff command);
+
+        EditStaff Get(long id);
+       
+        void Remove(long id);
+        void Active(long id);
+        void Edit(EditStaff command);
+
     }
 }

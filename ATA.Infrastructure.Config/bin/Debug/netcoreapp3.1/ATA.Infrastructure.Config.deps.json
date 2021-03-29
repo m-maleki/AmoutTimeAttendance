@@ -1060,7 +1060,8 @@
       "ATA.Application/1.0.0": {
         "dependencies": {
           "ATA.Application.Contracts": "1.0.0",
-          "ATA.Domain": "1.0.0"
+          "ATA.Domain": "1.0.0",
+          "ATA.Infastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "ATA.Application.dll": {}
@@ -1072,6 +1073,9 @@
         }
       },
       "ATA.Domain/1.0.0": {
+        "dependencies": {
+          "ATA.Application.Contracts": "1.0.0"
+        },
         "runtime": {
           "ATA.Domain.dll": {}
         }

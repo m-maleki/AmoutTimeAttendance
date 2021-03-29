@@ -15,7 +15,7 @@ namespace ATA.Infastructure.EFCore.Mappings
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name);
             builder.Property(x => x.RegisterDate);
-
-        }
+            builder.Property(x => x.IsDeleted);
+            }
     }
 }

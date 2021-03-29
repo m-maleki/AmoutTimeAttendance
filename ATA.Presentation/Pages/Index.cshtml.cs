@@ -5,21 +5,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ATA.Application.Contracts.Staff;
 
 namespace ATA.Presentation.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        public List<StaffViewModel> staff { get; set; }
+        private readonly IStaffApplication _staffApplication;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(IStaffApplication staffApplication)
         {
-            _logger = logger;
+            _staffApplication = staffApplication;
         }
 
         public void OnGet()
         {
-
+            staff = _staffApplication.List();
+           ViewData["StaffCount"] = staff.Count;
         }
     }
 }

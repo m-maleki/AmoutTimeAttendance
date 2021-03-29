@@ -6,14 +6,33 @@ namespace ATA.Domain.StaffAgg
 {
     public class Staff
     {
-        public int Id { get; private set; }
+        public long Id { get; private set; }
         public string Name { get; private set; }
         public DateTime RegisterDate {  get; private set; }
-
-        public Staff(string name)
+        public bool IsDeleted { get; private set; }
+        public Staff(string name , DateTime registerDate )
         {
             Name = name;
-            RegisterDate=DateTime.Now;
+            RegisterDate = registerDate;
+            IsDeleted = false;
         }
+
+        public void Remove()
+        {
+            IsDeleted = true;
+
+        } public void Active()
+        {
+            IsDeleted = false;
+
+        }
+
+        public void Edit(string name , DateTime registereDate)
+        {
+            Name = name;
+            RegisterDate = registereDate;
+        }
+
+
     }
 }

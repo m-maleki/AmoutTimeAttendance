@@ -1488,7 +1488,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "ATA.Application.Contracts": "1.0.0",
-          "ATA.Domain": "1.0.0"
+          "ATA.Domain": "1.0.0",
+          "ATA.Infastructure.EFCore": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ATA.Application.dll": {}
@@ -1510,6 +1511,9 @@
       "ATA.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ATA.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ATA.Domain.dll": {}
         },

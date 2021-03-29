@@ -1,0 +1,72 @@
+﻿@page
+
+@model ATA.Presentation.Pages.Staff.CreateModel
+@{
+    ViewData["MenuStaff"] = "current";
+    ViewData["Title"] = "افزودن پرسنل جدید";
+
+
+
+
+}
+
+
+<script type="text/javascript">
+    $(function () {
+        $("#RegisterDate, #span1").persianDatepicker();
+    });
+</script>
+
+<div class="col-lg-12">
+
+    <div class="portlet box border shadow">
+
+        <div class="portlet-body">
+            <form role="form" method="post">
+                <div class="form-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>نام و نام خانوادگی</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <input required type="text" name="name" id="name" class="form-control" placeholder="نام و نام خانوادگی">
+                             
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>تاریخ استخدام</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar-times-o"></i>
+                                    </span>
+                                    <input required type="text" name="RegisterDate" id="RegisterDate" class="form-control">
+                                
+                                    <span id="span1"></span>
+                                    @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-info btn-round">
+                            <i class="icon-check"></i>
+                            ثبت اطلاعات پرسنل جدید
+                        </button>
+                        <button type="submit" class="btn btn-warning btn-round" asp-page="./Index">
+                            بازگشت به لیست پرسنل
+                            <i class="icon-close"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div><!-- /.portlet-body -->
+    </div><!-- /.portlet -->
+
+</div><!-- /.col-lg-6 -->

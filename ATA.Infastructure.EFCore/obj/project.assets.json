@@ -1521,9 +1521,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ATA.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ATA.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ATA.Application.Contracts.dll": {}
+        }
+      },
       "ATA.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ATA.Application.Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ATA.Domain.dll": {}
         },
@@ -5749,6 +5762,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ATA.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../ATA.Application.Contracts/ATA.Application.Contracts.csproj",
+      "msbuildProject": "../ATA.Application.Contracts/ATA.Application.Contracts.csproj"
     },
     "ATA.Domain/1.0.0": {
       "type": "project",

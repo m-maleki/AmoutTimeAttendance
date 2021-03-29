@@ -12,3 +12,5 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\obj\Debug\netco
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\obj\Debug\netcoreapp3.1\ATA.Application.csproj.CopyComplete
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\obj\Debug\netcoreapp3.1\ATA.Application.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\obj\Debug\netcoreapp3.1\ATA.Application.pdb
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.dll
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application\bin\Debug\netcoreapp3.1\ATA.Infastructure.EFCore.pdb

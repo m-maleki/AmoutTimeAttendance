@@ -1,50 +1,136 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="rtl">
+
+<!-- Mirrored from www.rayanik.com/demo/modiran/admin/blank by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 13:28:00 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ATA.Presentation</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <title>نرم افزار کنترل تردد آموت سپهر</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="نرم افزار کنترل تردد آموت سپهر">
+    <meta name="keywords" content="نرم افزار کنترل تردد آموت سپهر">
+    <meta name="fontiran.com:license" content="NE29X">
+    <link rel="shortcut icon" href="~/assets/images/favicon.png">
+
+    <!-- BEGIN CSS -->
+    <link href="~/assets/plugins/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/bootstrap-rtl/dist/css/bootstrap-rtl.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/switchery/dist/switchery.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/paper-ripple/dist/paper-ripple.min.css" rel="stylesheet">
+    <link href="~/assets/plugins/iCheck/skins/square/_all.css" rel="stylesheet">
+    <link href="~/assets/css/style5bb3.css?20210322-132725" rel="stylesheet">
+    <link href="~/assets/css/colors.css" rel="stylesheet">
+  
+    <link rel="stylesheet" href="~/assets/css/font-awesome/css/font-awesome.min.css">
+    <link href="~/assets/plugins/data-table/DataTables-1.10.16/css/jquery.dataTables.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+    <script type="text/javascript" src="~/DatePicker/js/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="~/DatePicker/js/persianDatepicker.min.js"></script>
+    
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ATA.Presentation</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+<body class="active-ripple theme-blue fix-header sidebar-extra">
+    <!-- BEGIN LOEADING -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div><!-- /loader -->
+    <!--<div id="loader">
+        <div class="spinner"></div>
+    </div>-->
+    <!-- /loader -->
+    <!-- END LOEADING -->
+    <!-- BEGIN HEADER -->
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - ATA.Presentation - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+    <partial name="Header.cshtml" />
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- END HEADER -->
+    <!-- BEGIN WRAPPER -->
+    <div id="wrapper">
 
-    @await RenderSectionAsync("Scripts", required: false)
+        <!-- BEGIN SIDEBAR -->
+        <partial name="Sidebar.cshtml" />
+        <!-- END SIDEBAR -->
+        <!-- BEGIN PAGE CONTENT -->
+        <div id="page-content">
+            <div class="row">
+                <!-- BEGIN BREADCRUMB -->
+                <div class="col-md-12">
+                    <div class="breadcrumb-box border shadow">
+                        <ul class="breadcrumb">
+                            <li><a href="#">نرم افزار کنترل تردد آموت سپهر</a></li>
+                        </ul>
+                        <div class="breadcrumb-left">
+                           "Today"
+                            <i class="icon-calendar"></i>
+                        </div><!-- /.breadcrumb-left -->
+                    </div><!-- /.breadcrumb-box -->
+                </div><!-- /.col-md-12 -->
+                <!-- END BREADCRUMB -->
+
+                <div class="col-12">
+                    <div class="portlet box border shadow">
+                        <div class="portlet-heading">
+                            <div class="portlet-title">
+                                <h3 class="title">
+                                    <i class="icon-note"></i>
+                                    @ViewData["title"]
+                                </h3>
+                            </div><!-- /.portlet-title -->
+                            <div class="buttons-box">
+                                <a class="btn btn-sm btn-default btn-round btn-fullscreen" rel="tooltip" title="تمام صفحه" href="#">
+                                    <i class="icon-size-fullscreen"></i>
+                                </a>
+                                <a class="btn btn-sm btn-default btn-round btn-collapse" rel="tooltip" title="کوچک کردن" href="#">
+                                    <i class="icon-arrow-up"></i>
+                                </a>
+                            </div><!-- /.buttons-box -->
+                        </div><!-- /.portlet-heading -->
+                       @RenderBody()
+                            </div><!-- /.portlet -->
+                </div><!-- /.col-12 -->
+            </div><!-- /.row -->
+        </div><!-- /#page-content -->
+        <!-- END PAGE CONTENT -->
+
+    </div><!-- /#wrapper -->
+    <!-- END WRAPPER -->
+
+    <partial name="Footer.cshtml" />
+
+    <!-- END SETTING -->
+    <!-- BEGIN JS -->
+    <script src="~/assets/plugins/jquery/dist/jquery-1.12.4.min.js"></script>
+    <script src="~/assets/plugins/jquery-migrate/jquery-migrate-1.2.1.min.js"></script>
+    <script src="~/assets/plugins/popper/popper.min.js"></script>
+    <script src="~/assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/assets/plugins/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="~/assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+    <script src="~/assets/plugins/paper-ripple/dist/PaperRipple.min.js"></script>
+    <script src="~/assets/plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/assets/plugins/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="~/assets/plugins/screenfull/dist/screenfull.min.js"></script>
+    <script src="~/assets/plugins/iCheck/icheck.min.js"></script>
+    <script src="~/assets/plugins/switchery/dist/switchery.js"></script>
+    <script src="~/assets/js/core.js"></script>
+
+    <!-- BEGIN PAGE JAVASCRIPT -->
+    <script src="~/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/pages/datatable.js"></script>
+    <!-- END PAGE JAVASCRIPT -->   
+
+  
+    <link rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+    <script src="~/DatePicker/js/jquery-1.10.1.min.js" ></script>
+    <script src="~/DatePicker/js/persianDatepicker.min.js"></script>
+    
+
+
 </body>
+
 </html>

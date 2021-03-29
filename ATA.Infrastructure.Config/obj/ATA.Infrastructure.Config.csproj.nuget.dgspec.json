@@ -93,6 +93,9 @@
               },
               "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
                 "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
+              },
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
               }
             }
           }
@@ -151,7 +154,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

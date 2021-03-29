@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ATA.Application.Contracts\ATA.Application.Contracts.csproj" />
     <ProjectReference Include="..\ATA.Domain\ATA.Domain.csproj" />
+    <ProjectReference Include="..\ATA.Infastructure.EFCore\ATA.Infastructure.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

@@ -78,3 +78,9 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\ref\ATA.Presentation.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\ATA.Presentation.pdb
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\ATA.Presentation.genruntimeconfig.cache
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Shared\Footer.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Shared\Header.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Shared\Sidebar.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Staff\Index.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Staff\Create.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Staff\Edit.cshtml.g.cs

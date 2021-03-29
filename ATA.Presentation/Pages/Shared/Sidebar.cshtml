@@ -1,0 +1,32 @@
+﻿<div id="sidebar">
+
+    <div class="side-menu-container">
+        <ul class="metismenu" id="side-menu">
+            <li class="open active conditional-bg">
+                <a href="#" class="">
+                    <i class="icon-home"></i>
+                    <span>منو اصلی </span>
+                </a>
+                <ul>
+                    <li>
+                        <a asp-page="." class="@ViewData["MenuHome"]">
+                            <i class="icon-home"></i>
+                            <span>پیشخوان </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a asp-page="/Staff/Index" class="@ViewData["MenuStaff"]">
+                            <i class="icon-home"></i>
+                            <span>مدیریت پرسنل </span>
+                        </a>
+                    </li>
+
+            
+        
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
