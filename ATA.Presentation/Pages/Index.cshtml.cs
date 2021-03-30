@@ -12,7 +12,7 @@ namespace ATA.Presentation.Pages
 {
     public class IndexModel : PageModel
     {
-        public List<StaffViewModel> staff { get; set; }
+        public List<StaffViewModel> Staff { get; set; }
         private readonly IStaffApplication _staffApplication;
 
         public IndexModel(IStaffApplication staffApplication)
@@ -22,13 +22,9 @@ namespace ATA.Presentation.Pages
 
         public void OnGet()
         {
-            var datePersian = PersianDateTime.Now;
-
-            staff = _staffApplication.List();
-           ViewData["StaffCount"] = staff.Count;
-
-          
-        }
+            Staff = _staffApplication.List();
+           ViewData["StaffCount"] = Staff.Count;
+            }
 
 
         

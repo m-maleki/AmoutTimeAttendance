@@ -12,7 +12,7 @@ namespace ATA.Presentation.Pages.Staff
     public class IndexModel : PageModel
     {
 
-        public List<StaffViewModel> staff { get; set; }
+        public List<StaffViewModel> Staff { get; set; }
         private readonly IStaffApplication _staffApplication;
 
         public IndexModel(IStaffApplication staffApplication)
@@ -23,7 +23,7 @@ namespace ATA.Presentation.Pages.Staff
         public void OnGet()
         {
            
-            staff = _staffApplication.List();
+            Staff = _staffApplication.List();
             
         }
 

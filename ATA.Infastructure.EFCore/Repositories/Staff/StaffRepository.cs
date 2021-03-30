@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using ATA.Application.Contracts.Staff;
 using ATA.Domain.StaffAgg;
-using ATA.Domain.StaffAgg;
+
 
 namespace ATA.Infastructure.EFCore.Repositories.Staff
 {

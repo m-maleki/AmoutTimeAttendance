@@ -18,24 +18,33 @@ namespace ATA.Presentation.Pages.Attendance
         public int Year { get; set; }
         public int Month { get; set; }
         public List<AttendanceViewModel> Attendance { get; set; }
-        public List<SelectListItem> stafss { get; set; }
-        private readonly IAttendanceApplication _attendanceApplication;
+        public List<AttendanceViewModel> Attendance2 { get; set; }
+       
+        public List<SelectListItem> Stafss { get; set; }
 
-        public IndexModel(IAttendanceApplication attendanceApplication)
+        private readonly IAttendanceApplication _attendanceApplication;
+        private readonly IStaffApplication _staffApplication;
+
+     
+        public IndexModel(IAttendanceApplication attendanceApplication, IStaffApplication staffApplication)
         {
             _attendanceApplication = attendanceApplication;
-            
+            _staffApplication = staffApplication;
+
             Year = PersianDateTime.Now.Year;
             Month = PersianDateTime.Now.Month;
         }
 
-        public void OnGet(AttendanceViewModel command)
+        public void OnGet()
         {
-        
-            stafss = _attendanceApplication.GetList()
-                    .Select(x => new SelectListItem(x.StaffName, x.StaffId.ToString())).ToList();
 
-                Attendance = _attendanceApplication.GetList();
+            Stafss = _staffApplication.List()
+                    .Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
+
+            //Attendance2 = _attendanceApplication.GetList().Distinct().ToList();
+            //Stafss = Attendance2.Select(x => new SelectListItem(x.StaffName, x.StaffId.ToString())).ToList();
+
+            Attendance = _attendanceApplication.GetList();
               
         }
 
@@ -46,8 +55,8 @@ namespace ATA.Presentation.Pages.Attendance
 
             Attendance = _attendanceApplication.GetListBy(Year, Month, long.Parse(command.StaffName));
 
-            stafss = _attendanceApplication.GetList()
-                .Select(x => new SelectListItem(x.StaffName, x.StaffId.ToString())).ToList();
+            Stafss = _staffApplication.List()
+                .Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
         }
 
 
