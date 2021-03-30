@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ATA.Application.Contracts.Staff;
+using PersianTools.Core;
 
 namespace ATA.Presentation.Pages
 {
@@ -21,8 +22,16 @@ namespace ATA.Presentation.Pages
 
         public void OnGet()
         {
+            var datePersian = PersianDateTime.Now;
+
             staff = _staffApplication.List();
            ViewData["StaffCount"] = staff.Count;
+
+          
         }
+
+
+        
+     
     }
 }

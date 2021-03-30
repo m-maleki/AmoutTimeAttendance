@@ -29,8 +29,7 @@
     <link href="~/assets/css/colors.css" rel="stylesheet">
   
     <link rel="stylesheet" href="~/assets/css/font-awesome/css/font-awesome.min.css">
-    <link href="~/assets/plugins/data-table/DataTables-1.10.16/css/jquery.dataTables.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+ 
     <script type="text/javascript" src="~/DatePicker/js/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="~/DatePicker/js/persianDatepicker.min.js"></script>
     
@@ -66,7 +65,7 @@
                             <li><a href="#">نرم افزار کنترل تردد آموت سپهر</a></li>
                         </ul>
                         <div class="breadcrumb-left">
-                           "Today"
+                            @ViewData["ddd"]
                             <i class="icon-calendar"></i>
                         </div><!-- /.breadcrumb-left -->
                     </div><!-- /.breadcrumb-box -->
@@ -119,16 +118,14 @@
     <script src="~/assets/plugins/switchery/dist/switchery.js"></script>
     <script src="~/assets/js/core.js"></script>
 
-    <!-- BEGIN PAGE JAVASCRIPT -->
-    <script src="~/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
-    <script src="~/assets/js/pages/datatable.js"></script>
-    <!-- END PAGE JAVASCRIPT -->   
-
-  
-    <link rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
-    <script src="~/DatePicker/js/jquery-1.10.1.min.js" ></script>
-    <script src="~/DatePicker/js/persianDatepicker.min.js"></script>
     
+
+    
+
+    
+@await RenderSectionAsync("dataTables", required: false)
+@await RenderSectionAsync("persianDatepicker", required: false)
+
 
 
 </body>

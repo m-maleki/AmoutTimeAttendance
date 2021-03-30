@@ -11,6 +11,7 @@ namespace ATA.Presentation.Pages.Staff
 {
     public class IndexModel : PageModel
     {
+
         public List<StaffViewModel> staff { get; set; }
         private readonly IStaffApplication _staffApplication;
 

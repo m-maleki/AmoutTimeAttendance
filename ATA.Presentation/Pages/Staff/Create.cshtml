@@ -58,10 +58,10 @@
                             <i class="icon-check"></i>
                             ثبت اطلاعات پرسنل جدید
                         </button>
-                        <button type="submit" class="btn btn-warning btn-round" asp-page="./Index">
+                        <a type="submit" class="btn btn-warning btn-round" asp-page="./Index">
                             بازگشت به لیست پرسنل
                             <i class="icon-close"></i>
-                        </button>
+                        </a>
                     </div>
 
                 </div>
@@ -70,3 +70,11 @@
     </div><!-- /.portlet -->
 
 </div><!-- /.col-lg-6 -->
+
+
+@section persianDatepicker
+{
+    <link rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+    <script src="~/DatePicker/js/jquery-1.10.1.min.js"></script>
+    <script src="~/DatePicker/js/persianDatepicker.min.js"></script>
+}

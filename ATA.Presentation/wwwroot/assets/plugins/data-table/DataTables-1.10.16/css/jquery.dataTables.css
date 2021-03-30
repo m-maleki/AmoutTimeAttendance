@@ -59,36 +59,46 @@ table.dataTable thead .sorting_asc_disabled {
 table.dataTable thead .sorting_desc_disabled {
   background-image: url("../images/sort_desc_disabled.png");
 }
-table.dataTable tbody tr {
-  background-color: #ffffff;
-}
+    table.dataTable tbody tr {
+        text-align: center;
+        background-color: #ffffff;
+    }
 table.dataTable tbody tr.selected {
   background-color: #B0BED9;
 }
-table.dataTable tbody th,
-table.dataTable tbody td {
-  padding: 8px 10px;
-}
-table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
-  border-top: 1px solid #ddd;
-}
-table.dataTable.row-border tbody tr:first-child th,
-table.dataTable.row-border tbody tr:first-child td, table.dataTable.display tbody tr:first-child th,
-table.dataTable.display tbody tr:first-child td {
-  border-top: none;
-}
-table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-}
+    table.dataTable tbody th,
+    table.dataTable tbody td {
+        text-align: center;
+        vertical-align: middle;
+    }
+    table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #ddd;
+    }
+    table.dataTable.row-border tbody tr:first-child th,
+    table.dataTable.row-border tbody tr:first-child td, table.dataTable.display tbody tr:first-child th,
+    table.dataTable.display tbody tr:first-child td {
+        text-align: center;
+        vertical-align: middle;
+        border-top: none;
+    }
+    table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
+        text-align: center;
+        vertical-align: middle;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
 table.dataTable.cell-border tbody tr th:first-child,
 table.dataTable.cell-border tbody tr td:first-child {
   border-left: 1px solid #ddd;
 }
-table.dataTable.cell-border tbody tr:first-child th,
-table.dataTable.cell-border tbody tr:first-child td {
-  border-top: none;
-}
+    table.dataTable.cell-border tbody tr:first-child th,
+    table.dataTable.cell-border tbody tr:first-child td {
+        text-align: center;
+        vertical-align: middle;
+        border-top: none;
+    }
 table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
   background-color: #f9f9f9;
 }
@@ -232,28 +242,28 @@ table.dataTable tfoot th.dt-head-justify,
 table.dataTable tfoot td.dt-head-justify {
   text-align: justify;
 }
-table.dataTable thead th.dt-head-nowrap,
-table.dataTable thead td.dt-head-nowrap,
-table.dataTable tfoot th.dt-head-nowrap,
-table.dataTable tfoot td.dt-head-nowrap {
-  white-space: nowrap;
-}
-table.dataTable tbody th.dt-body-left,
-table.dataTable tbody td.dt-body-left {
-  text-align: left;
-}
-table.dataTable tbody th.dt-body-center,
-table.dataTable tbody td.dt-body-center {
-  text-align: center;
-}
-table.dataTable tbody th.dt-body-right,
-table.dataTable tbody td.dt-body-right {
-  text-align: right;
-}
-table.dataTable tbody th.dt-body-justify,
-table.dataTable tbody td.dt-body-justify {
-  text-align: justify;
-}
+    table.dataTable thead th.dt-head-nowrap,
+    table.dataTable thead td.dt-head-nowrap,
+    table.dataTable tfoot th.dt-head-nowrap,
+    table.dataTable tfoot td.dt-head-nowrap {
+        white-space: center;
+    }
+    table.dataTable tbody th.dt-body-left,
+    table.dataTable tbody td.dt-body-left {
+        text-align: center;
+    }
+    table.dataTable tbody th.dt-body-center,
+    table.dataTable tbody td.dt-body-center {
+        text-align: center;
+    }
+    table.dataTable tbody th.dt-body-right,
+    table.dataTable tbody td.dt-body-right {
+        text-align: center;
+    }
+    table.dataTable tbody th.dt-body-justify,
+    table.dataTable tbody td.dt-body-justify {
+        text-align: center;
+    }
 table.dataTable tbody th.dt-body-nowrap,
 table.dataTable tbody td.dt-body-nowrap {
   white-space: nowrap;

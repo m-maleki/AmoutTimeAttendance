@@ -20,7 +20,7 @@
         <form role="form" method="post">
             <div class="form-body">
                 <div class="row">
-                    <input type="hidden" asp-for="Staff.Id"/>
+                    <input type="hidden" asp-for="Staff.Id" />
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>نام و نام خانوادگی</label>
@@ -29,9 +29,9 @@
                                     <i class="fa fa-user"></i>
                                 </span>
 
-                                <input type="text" required asp-for="Staff.Name"  class="form-control" placeholder="نام و نام خانوادگی">
-                            
-                                </div>
+                                <input type="text" required asp-for="Staff.Name" class="form-control" placeholder="نام و نام خانوادگی">
+
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -40,11 +40,11 @@
                             <div class="input-group">
                                 <span class="input-group-addon">
                                     <i class="fa fa-calendar-times-o"></i>
-                               
-                                    </span>
-                                
-                                <input type="text" required id="RegisterDate" asp-for="Staff.RegisterDate" value="@tempDate"  class="form-control">
-                                
+
+                                </span>
+
+                                <input type="text" required id="RegisterDate" asp-for="Staff.RegisterDate" value="@tempDate" class="form-control">
+
                                 <span id="span1"></span>
                                 @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
                             </div>
@@ -57,7 +57,7 @@
                         <i class="icon-check"></i>
                         ویرایش اطلاعات
                     </button>
-                    <a  class="btn btn-warning btn-round" asp-page="./Index">
+                    <a class="btn btn-warning btn-round" asp-page="./Index">
                         بازگشت به لیست پرسنل
                         <i class="icon-close"></i>
                     </a>
@@ -67,3 +67,11 @@
         </form>
     </div><!-- /.portlet-body -->
 </div><!-- /.portlet -->
+
+@section persianDatepicker
+{
+
+    <link rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+    <script src="~/DatePicker/js/jquery-1.10.1.min.js"></script>
+    <script src="~/DatePicker/js/persianDatepicker.min.js"></script>
+}

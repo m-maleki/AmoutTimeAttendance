@@ -1,0 +1,167 @@
+﻿@page
+@using PersianTools.Core
+@using ATA.Domain.StaffAgg
+@model ATA.Presentation.Pages.Attendance.IndexModel
+@{
+
+
+    string[] MonthName = {"", "فروردین", "اردیبهشت", "خرداد", "تیر" , "مرداد", "شهریور", "مهر" ,"آذر", "دی", "بهمن","اسفند" };
+
+    ViewData["MenuAttendance"] = "current";
+    ViewData["disblecombo"] = "disabled";
+    ViewData["Title"] = "مدیریت ترددها";
+    //  PersianDateTime dateTime = new PersianDateTime("1399/12/31");
+
+}
+
+
+
+<div class="card">
+    <div class="card-header">
+  
+        <form method="post" asp-page-handler="Filter" asp-page="./Index">
+        <div class="row portlet-body ">
+            
+                <label>سال : </label>
+          
+            <div class="form-group col-sm-2">
+                <select name="Year" value="1400"  class="form-control select2 round">
+                    @for (int i = PersianDateTime.Now.Year ; i>=1390;i--)
+                    {
+                        <option  value="@i.ToString()">@i.ToString()</option>
+                    }
+                </select>
+            </div><!-- /.form-group -->
+          
+                <label>ماه : </label>
+     
+            <div class="form-group col-sm-2">
+                <select name="Month" class="form-control select2 round">
+                    @for (int i = 1; i < 12; i++)
+                    {
+                    <option value="@i">@MonthName[i]</option>
+                    }
+                    
+                </select>
+            </div><!-- /.form-group -->
+            
+            <label>نام و نام خانوادگی </label>
+
+            <div class="form-group col-sm-2">
+                <select asp-items="Model.stafss" name="StaffName" id="StaffId" class="form-control select2 round">
+                    <option value="" selected disabled hidden>انتخاب کنید</option>
+                </select>
+            </div><!-- /.form-group -->
+            <div class="form-group col-sm-2">
+                <button class="btn btn-success rounded-pill"  asp-page-handler="Filter" asp-page="./Index">اعمال فیلتر</button>
+            </div>
+
+        </div><!-- /.portlet-body -->
+        
+        </form>
+
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped" id="data-table-Staff">
+
+
+                <thead>
+                <tr>
+                    <th>ردیف</th>
+                    <th>نام و نام خانوادگی</th>
+                    <th>تاریخ تردد</th>
+                    <th>روز هفته</th>
+                    <th>ساعت ورود</th>
+                    <th>ساعت خروج</th>
+                    <th>وضعیت</th>
+                    <th>عملیات</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                @if (Model.Attendance != null)
+                {
+                    @foreach (var attendance in Model.Attendance)
+                    {
+                       
+                        <tr>
+                            <td>@attendance.Id</td>
+                            <td>@attendance.StaffName</td>
+                            <td>@attendance.EntranceDate.ToString("yyyy/MM/dd")</td>
+                            <td>
+
+                                @{
+                                    PersianDateTime dateTime = new @PersianDateTime(attendance.EntranceDate.ToString("yyyy/MM/dd"));
+
+
+                                }
+                                @dateTime.DayOfWeek
+
+                            </td>
+
+
+                            <td>@attendance.EntranceTime.ToString("HH:mm:ss")</td>
+
+                            <td>@attendance.LeaveTime.ToString("HH:mm:ss")</td>
+
+                            <td>
+                                @if (attendance.IsDelete)
+                                {
+                                    <i class="fa fa-check fa-2x text-danger"></i>
+                                }
+                                else
+                                {
+                                    <i class="fa fa-check fa-2x text-success"></i>
+                                }
+                            </td>
+                            <td class="d-flex justify-content-center">
+                                <div class="row d-flex justify-content-center">
+                                    @if (attendance.IsDelete == false)
+                                    {
+                                        <form method="post" asp-page-handler="Remove" class="">
+                                            <button class="btn al btn-danger btn-round mr-2  ">حذف تردد</button>
+                                            <input type="hidden" name="Id" value="@attendance.Id" />
+                                        </form>
+                                        <a class="btn btn-warning btn-round center-block mr-2" asp-page="./Edit" asp-route-id="@attendance.Id"> ویرایش پرسنل</a>
+
+
+                                    }
+                                    else
+                                    {
+                                        <form method="post" asp-page-handler="Active" class="">
+                                            <button class="btn btn-success  mr-2 btn-round ">بازگردانی تردد</button>
+                                            <input type="hidden" name="Id" value="@attendance.Id" />
+                                        </form>
+                                    }
+
+                                </div>
+
+                            </td>
+                        </tr>
+                    }
+                }
+
+                 
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+@section dataTables
+{
+
+    <link href="~/assets/plugins/data-table/DataTables-1.10.16/css/jquery.dataTables.css" rel="stylesheet">
+    <script src="~/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/pages/datatable.js"></script>
+    <link href="~/assets/plugins/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- BEGIN PAGE JAVASCRIPT -->
+    <script src="~/assets/plugins/select2/dist/js/select2.full.min.js"></script>
+    <script src="~/assets/plugins/select2/dist/js/i18n/fa.js"></script>
+    <script src="~/assets/js/pages/select2.js"></script>
+    <!-- END PAGE JAVASCRIPT -->    
+}
+
