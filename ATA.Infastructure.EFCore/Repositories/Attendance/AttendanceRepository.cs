@@ -29,12 +29,12 @@ namespace ATA.Infastructure.EFCore.Repositories.Attendance
                 LeaveTime = x.LeaveTime,
                 IsDelete = x.IsDelete,
                 EntranceDate = x.EntranceDate,
-            }).ToList();
+            }).OrderBy(x => x.EntranceDate).ToList();
         }
 
         public List<AttendanceViewModel> GetListBy(int year, int month, long staffid)
         {
-            return _context.Attendances.Where(x=>x.EntranceDate.Year==year && x.EntranceDate.Month==month && x.Staff.Id  == staffid)
+            return _context.Attendances.Where(x=>x.EntranceDate.Year==year && x.EntranceDate.Month==month && x.Staff.Id  == staffid).OrderBy(x=>x.EntranceDate)
                 .Select(x => new AttendanceViewModel
             {
                 Id = x.Id,
@@ -46,6 +46,19 @@ namespace ATA.Infastructure.EFCore.Repositories.Attendance
                 EntranceDate = x.EntranceDate,
             }).ToList();
         }
+
+        public void Create(Domain.AttendanceAgg.Attendance entity)
+        {
+            _context.Attendances.Add(entity);
+            Save();
+        }
+
+
+        public void Save()
+        {
+            _context.SaveChanges();
+        }
+
     }
     
 }

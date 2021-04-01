@@ -11,7 +11,7 @@ namespace ATA.Application.Contracts.Staff
         void Create(CreateStaff command);
 
         EditStaff Get(long id);
-       
+        string GetStaffNameBy(long id);
         void Remove(long id);
         void Active(long id);
         void Edit(EditStaff command);

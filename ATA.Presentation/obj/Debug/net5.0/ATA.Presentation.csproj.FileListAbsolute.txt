@@ -86,3 +86,5 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Staff\Edit.cshtml.g.cs
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\bin\Debug\net5.0\PersianTools.Core.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Attendance\Index.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Attendance\Device.cshtml.g.cs
+C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Presentation\obj\Debug\net5.0\Razor\Pages\Attendance\Create.cshtml.g.cs

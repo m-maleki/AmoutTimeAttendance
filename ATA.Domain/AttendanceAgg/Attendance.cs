@@ -15,13 +15,13 @@ namespace ATA.Domain.AttendanceAgg
         public DateTime LeaveTime { get;  set; }
         public Staff Staff { get;  set; }
 
-        public Attendance(long staffId, DateTime entranceTime, DateTime leaveTime)
+        public Attendance(long staffId, DateTime entranceTime, DateTime leaveTime, DateTime entranceDate)
         {
             StaffId = staffId;
             EntranceTime = entranceTime;
             LeaveTime = leaveTime;
             IsDelete = false;
-            EntranceDate=DateTime.Now;
+            EntranceDate = entranceDate;
         }
     }
 }

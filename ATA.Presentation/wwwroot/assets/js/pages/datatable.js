@@ -3,7 +3,7 @@ var tableMain = $('#data-table-Staff').DataTable({
         "targets": 3,
         "orderable": false
     }],
-    "pageLength": 25
+    "pageLength": 10
 });
 
 $(window).on( 'resize', function () {

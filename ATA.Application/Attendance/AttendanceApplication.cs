@@ -25,5 +25,10 @@ namespace ATA.Application.Attendance
         {
             return _attendanceRepository.GetListBy(year, month, staffid);
         }
+
+        public void Create(CreateAttendance command)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

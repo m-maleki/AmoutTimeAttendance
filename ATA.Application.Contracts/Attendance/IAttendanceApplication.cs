@@ -9,5 +9,8 @@ namespace ATA.Application.Contracts.Attendance
         List<AttendanceViewModel> GetList();
         List<AttendanceViewModel> GetListBy(int year , int month, long staffid);
 
+        void Create(CreateAttendance command);
+
+
     }
 }

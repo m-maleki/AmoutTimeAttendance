@@ -1,0 +1,96 @@
+﻿@page
+@using PersianTools.Core
+@using System.Globalization
+@model ATA.Presentation.Pages.Attendance.DeviceModel
+@{
+    ViewData["Title"] = ViewData["ConnectionStatus"];
+    string dateShamsi;
+    int index = 0;
+    ViewData["MenuAttendanceDevice"] = "current";
+    
+}
+
+
+
+<div class="card">
+    <div class="card-header">
+        <div class="float-right">
+            <a class="btn btn-success rounded-pill" asp-page="./Device">بروزرسانی داده ها</a>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped" id="data-table-Staff">
+
+                <thead>
+                <tr>
+                    <th>ردیف</th>
+                    <th>نام و نام خانوادگی</th>
+                    <th>روز هفته</th>
+                    <th>تاریخ</th>
+                    <th>ساعت</th>
+                    <th>عملیات</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                    @if (Model.Events != null)
+                    {
+                        @foreach (var events in Model.Events)
+                        {
+                         
+
+
+                                PersianCalendar PersianCalendar1 = new PersianCalendar();
+                                dateShamsi = string.Format(@"{0}/{1}/{2}",
+                                    PersianCalendar1.GetYear(@events.Date),
+                                    PersianCalendar1.GetMonth(@events.Date),
+                                    PersianCalendar1.GetDayOfMonth(@events.Date));
+
+                            index++;
+                    <tr>
+                        <td>@index</td>
+                        <td>@events.UserId</td>
+                        <td>
+                            @{
+                                PersianDateTime dateTime = new @PersianDateTime(events.Date);
+
+
+                            }
+                            @dateTime.DayOfWeek
+
+                        </td>
+                        <td>@dateShamsi</td>
+
+                        <td>@events.Time</td>
+
+
+                        <td class="d-flex justify-content-center">
+                            <div class="row d-flex justify-content-center">
+                                <form class="">
+                                    <button class="btn al btn-danger btn-round mr-2  ">حذف تردد</button>
+                                </form>
+
+                            </div>
+
+                        </td>
+                    </tr>
+                        }
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+@section dataTables
+{
+
+    <link href="~/assets/plugins/data-table/DataTables-1.10.16/css/jquery.dataTables.css" rel="stylesheet">
+    <script src="~/assets/plugins/data-table/js/jquery.dataTables.min.js"></script>
+    <script src="~/assets/js/pages/datatable.js"></script>
+}

@@ -1,12 +1,15 @@
 ﻿@page
 @using PersianTools.Core
 @using ATA.Domain.StaffAgg
+@using System.Globalization
+@using ATA.Infastructure.EFCore.AccessControl
 @model ATA.Presentation.Pages.Attendance.IndexModel
 @{
 
 
     string[] MonthName = {"", "فروردین", "اردیبهشت", "خرداد", "تیر" , "مرداد", "شهریور", "مهر" ,"آذر", "دی", "بهمن","اسفند" };
-
+    string dateShamsi = "";
+    DateTime myDate;
     ViewData["MenuAttendance"] = "current";
     ViewData["disblecombo"] = "disabled";
     ViewData["Title"] = "مدیریت ترددها";
@@ -88,11 +91,55 @@
                         <tr>
                             <td>@attendance.Id</td>
                             <td>@attendance.StaffName</td>
-                            <td>@attendance.EntranceDate.ToString("yyyy/MM/dd")</td>
                             <td>
 
                                 @{
-                                    PersianDateTime dateTime = new @PersianDateTime(attendance.EntranceDate.ToString("yyyy/MM/dd"));
+                                    PersianCalendar PersianCalendar1 = new PersianCalendar();
+                                    dateShamsi = string.Format(@"{0}/{1}/{2}",
+                                        PersianCalendar1.GetDayOfMonth(@attendance.EntranceDate),
+                                        PersianCalendar1.GetMonth(@attendance.EntranceDate),
+                                        PersianCalendar1.GetYear(@attendance.EntranceDate));
+
+                                    string temp = "";
+                                    int lenth = dateShamsi.Length;
+
+                                    if (dateShamsi[1].ToString() == "/")
+                                    {
+                                        temp = "0" + dateShamsi;
+                                    }
+                                    if (dateShamsi[4].ToString() == "/")
+                                    {
+                                        temp = dateShamsi.Substring(0, 2) + "/0" + dateShamsi.Substring(3, 1) + dateShamsi.Substring(4, lenth - 4);
+                                    }
+
+                                    if (dateShamsi[1].ToString() == "/" && dateShamsi[3].ToString() == "/")
+                                    {
+
+                                        temp = "0" + dateShamsi.Substring(0, 1) + "/0" + dateShamsi.Substring(2, 1) + "/" + dateShamsi.Substring(4, lenth - 4);
+
+                                    }
+
+                                    myDate = DateTime.ParseExact(temp, "MM/dd/yyyy", null);
+
+                                    PersianDateTime dateTime = new @PersianDateTime(myDate.Year, myDate.Day, myDate.Month);
+
+                                    dateShamsi = string.Format(@"{2}/{1}/{0}",
+                                        PersianCalendar1.GetDayOfMonth(@attendance.EntranceDate),
+                                        PersianCalendar1.GetMonth(@attendance.EntranceDate),
+                                        PersianCalendar1.GetYear(@attendance.EntranceDate));
+                                }
+                                
+
+                                @dateShamsi
+
+
+                            </td>
+                            <td>
+                                
+
+                                @{
+
+                                    
 
 
                                 }

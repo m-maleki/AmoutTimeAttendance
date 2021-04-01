@@ -12,6 +12,8 @@ namespace ATA.Domain.StaffAgg
 
         public Staff Get(long id);
         public void Save();
+
+
       
 
     }

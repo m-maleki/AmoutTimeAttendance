@@ -14,11 +14,11 @@ namespace ATA.Presentation.Pages.Attendance
 {
     public class IndexModel : PageModel
     {
+        
 
         public int Year { get; set; }
         public int Month { get; set; }
         public List<AttendanceViewModel> Attendance { get; set; }
-        public List<AttendanceViewModel> Attendance2 { get; set; }
        
         public List<SelectListItem> Stafss { get; set; }
 
@@ -38,12 +38,8 @@ namespace ATA.Presentation.Pages.Attendance
         public void OnGet()
         {
 
-            Stafss = _staffApplication.List()
+            Stafss = _staffApplication.List().Where(x => x.IsDeleted == false)
                     .Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
-
-            //Attendance2 = _attendanceApplication.GetList().Distinct().ToList();
-            //Stafss = Attendance2.Select(x => new SelectListItem(x.StaffName, x.StaffId.ToString())).ToList();
-
             Attendance = _attendanceApplication.GetList();
               
         }
@@ -55,7 +51,7 @@ namespace ATA.Presentation.Pages.Attendance
 
             Attendance = _attendanceApplication.GetListBy(Year, Month, long.Parse(command.StaffName));
 
-            Stafss = _staffApplication.List()
+            Stafss = _staffApplication.List().Where(x => x.IsDeleted == false)
                 .Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();
         }
 

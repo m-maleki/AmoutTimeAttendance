@@ -52,6 +52,13 @@ namespace ATA.Application.Staff
             
         }
 
+        public string GetStaffNameBy(long id)
+        {
+            var staff = _staffRepository.Get(id);
+            return staff.Name;
+
+        }
+
         public void Remove(long id)
         {
            var staff= _staffRepository.Get(id);
