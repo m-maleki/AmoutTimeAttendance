@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {}
+    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
         "projectName": "ATA.Application.Contracts",
-        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

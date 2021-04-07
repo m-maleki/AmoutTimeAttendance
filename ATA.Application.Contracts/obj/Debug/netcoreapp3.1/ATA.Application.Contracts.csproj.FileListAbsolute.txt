@@ -7,3 +7,12 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\D
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.deps.json
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.csprojAssemblyReference.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.AssemblyInfo.cs
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Application.Contracts\obj\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb

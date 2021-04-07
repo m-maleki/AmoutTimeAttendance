@@ -202,18 +202,18 @@ namespace ATA.Infastructure.EFCore.AccessControl
                 }
             }
             CultureInfo info = new CultureInfo("fa-Ir");
-            for (int i = 0; i < dates.Count-1; i++)
+            for (int i = 0; i < dates.Count; i++)
             {
-                if (int.Parse(userId[i]) == 0 || int.Parse(userId[i]) == 2 || int.Parse(userId[i]) == 20)
-                {
-
-                }
-                else
+                if (int.Parse(userId[i]) == 1 || int.Parse(userId[i]) == 3 || int.Parse(userId[i]) == 4)
                 {
                     nameOfUser = _StaffRepository.Get(int.Parse(userId[i])).Name;
                     tempDate = CovertDate(dates[i].ToString());
                     myDate = DateTime.ParseExact(tempDate, "dd/MM/yyyy", null);
                     events.Add(new Event(myDate, times[i], nameOfUser, seqNo[i]));
+                }
+                else
+                {
+               
                 }
 
             }

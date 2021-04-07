@@ -5629,7 +5629,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -5728,23 +5728,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maleki\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\malek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
+      "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
       "projectName": "ATA.Infrastructure.Config",
-      "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
-      "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\obj\\",
+      "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
+      "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5758,14 +5754,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
-              "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+            "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
             },
-            "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
-              "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj"
+            "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
+              "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj"
             },
-            "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
-              "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
+            "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
             }
           }
         }
@@ -5800,7 +5796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

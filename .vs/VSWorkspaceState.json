@@ -1,4 +1,13 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\ATA.AccessControl",
+    "\\ATA.Application.Contracts",
+    "\\ATA.Application.Contracts\\Attendance",
+    "\\ATA.Application.Contracts\\Staff",
+    "\\ATA.Domain",
+    "\\ATA.Domain\\StaffAgg"
+  ],
+  "SelectedNode": "\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -10,3 +10,15 @@ C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb
 C:\Users\maleki\source\repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csproj.CopyComplete
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.deps.json
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.dll
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Domain.pdb
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.dll
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\bin\Debug\netcoreapp3.1\ATA.Application.Contracts.pdb
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csprojAssemblyReference.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.AssemblyInfoInputs.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.AssemblyInfo.cs
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.csproj.CopyComplete
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.dll
+C:\Users\malek\Source\Repos\AmoutTimeAttendance\ATA.Domain\obj\Debug\netcoreapp3.1\ATA.Domain.pdb

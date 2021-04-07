@@ -13,7 +13,6 @@
     ViewData["MenuAttendance"] = "current";
     ViewData["disblecombo"] = "disabled";
     ViewData["Title"] = "مدیریت ترددها";
-    //  PersianDateTime dateTime = new PersianDateTime("1399/12/31");
 
 }
 
@@ -119,9 +118,8 @@
 
                                     }
 
-                                    myDate = DateTime.ParseExact(temp, "MM/dd/yyyy", null);
+                                    myDate = DateTime.ParseExact(temp, "dd/MM/yyyy", null);
 
-                                    PersianDateTime dateTime = new @PersianDateTime(myDate.Year, myDate.Day, myDate.Month);
 
                                     dateShamsi = string.Format(@"{2}/{1}/{0}",
                                         PersianCalendar1.GetDayOfMonth(@attendance.EntranceDate),
@@ -130,20 +128,18 @@
                                 }
                                 
 
+                                @{ 
+                                }
                                 @dateShamsi
 
 
                             </td>
                             <td>
-                                
 
                                 @{
-
-                                    
-
-
+                                    PersianDateTime dateTimeDayofWeek = new @PersianDateTime(@PersianCalendar1.GetYear(@attendance.EntranceDate), PersianCalendar1.GetMonth(@attendance.EntranceDate), PersianCalendar1.GetDayOfMonth(@attendance.EntranceDate));
                                 }
-                                @dateTime.DayOfWeek
+                                @dateTimeDayofWeek.DayOfWeek
 
                             </td>
 

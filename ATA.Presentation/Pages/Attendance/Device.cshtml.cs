@@ -32,7 +32,7 @@ namespace ATA.Presentation.Pages.Attendance
         public void OnGet()
         {
             int seqNumber = 0;
-            Config config = new Config("http://93.118.109.62", 0, 100,
+            Config config = new Config("http://192.168.88.117", 0, 100,
                 1372, _staffRepository,username,password);
 
               seqNumber = config.SeqNumber;
