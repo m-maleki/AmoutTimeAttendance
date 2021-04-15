@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj": {}
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
         "projectName": "ATA.Application.Contracts",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +57,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj",
         "projectName": "ATA.Application",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +88,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
               },
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
               },
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
               }
             }
           }
@@ -118,21 +124,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj",
         "projectName": "ATA.Domain",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,8 +155,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
               }
             }
           }
@@ -176,21 +185,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
         "projectName": "ATA.Infastructure.EFCore",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,8 +216,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
               }
             }
           }
@@ -252,21 +264,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
         "projectName": "ATA.Infrastructure.Config",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,14 +295,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application.Contracts\\ATA.Application.Contracts.csproj"
               },
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Application\\ATA.Application.csproj"
               },
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj"
               }
             }
           }
@@ -322,21 +337,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj": {
+    "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj",
         "projectName": "ATA.Presentation",
-        "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj",
-        "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\obj\\",
+        "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\ATA.Presentation.csproj",
+        "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Presentation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -350,8 +368,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj": {
-                "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj"
+              "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj": {
+                "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infrastructure.Config\\ATA.Infrastructure.Config.csproj"
               }
             }
           }
@@ -366,6 +384,24 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "PersianTools.Core": {
               "target": "Package",
               "version": "[1.1.4, )"
@@ -389,7 +425,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

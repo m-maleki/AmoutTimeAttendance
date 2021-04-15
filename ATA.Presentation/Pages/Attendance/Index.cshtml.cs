@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using ATA.Application.Contracts.Attendance;
@@ -49,7 +50,15 @@ namespace ATA.Presentation.Pages.Attendance
             Year = Int32.Parse(command.Year);
             Month = Int32.Parse(command.Month);
 
-            Attendance = _attendanceApplication.GetListBy(Year, Month, long.Parse(command.StaffName));
+            PersianCalendar p = new PersianCalendar();
+            DateTime x = new DateTime(Year, Month, 15);
+            int y, m, d;
+            y = p.GetYear(x);
+            m = p.GetMonth(x);
+            d = p.GetDayOfMonth(x);
+
+            //  Attendance = _attendanceApplication.GetListBy(Year, Month, long.Parse(command.StaffName));
+            Attendance = _attendanceApplication.GetListBy(y, m, 1);
 
             Stafss = _staffApplication.List().Where(x => x.IsDeleted == false)
                 .Select(x => new SelectListItem(x.Name, x.Id.ToString())).ToList();

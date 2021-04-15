@@ -5694,7 +5694,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -5783,19 +5783,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\malek\\.nuget\\packages\\": {}
+    "C:\\Users\\maleki\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
       "projectName": "ATA.Infastructure.EFCore",
-      "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
-      "packagesPath": "C:\\Users\\malek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\obj\\",
+      "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\ATA.Infastructure.EFCore.csproj",
+      "packagesPath": "C:\\Users\\maleki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Infastructure.EFCore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\malek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maleki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5809,8 +5813,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
-              "projectPath": "C:\\Users\\malek\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
+            "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj": {
+              "projectPath": "C:\\Users\\maleki\\source\\repos\\AmoutTimeAttendance\\ATA.Domain\\ATA.Domain.csproj"
             }
           }
         }
@@ -5857,7 +5861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

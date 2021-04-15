@@ -2,3 +2,103 @@
 @model ATA.Presentation.Pages.Attendance.CreateModel
 @{
 }
+
+
+
+<script type="text/javascript">
+    $(function () {
+        $("#RegisterDate, #span1").persianDatepicker();
+    });
+</script>
+
+<div class="col-lg-12">
+
+    <div class="portlet box border shadow">
+
+        <div class="portlet-body">
+            <form role="form" autocomplete="off" method="post">
+                <div class="form-body">
+                    <div class="row">
+                        
+                        <div class="col-md-6">
+                            <label>نام پرسنل </label>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-calendar-times-o"></i>
+                                </span>
+                                <select required asp-items="Model.Stafss" name="StaffName" id="StaffId" class="form-control select2 round">
+                                    <option value="" selected disabled hidden>انتخاب کنید</option>
+                                </select>
+                                <span id="span1"></span>
+                                @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label>تاریخ </label>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-calendar-times-o"></i>
+                                </span>
+                                <input required type="text" name="EntranceDate" name="RegisterDate" id="RegisterDate" class="form-control">
+
+                                <span id="span1"></span>
+                                @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>ساعت ورود</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="icon-clock"></i>
+                                    </span>
+                                    <input type="text" name="EntranceTime" class="form-control clockpicker">
+                                    <span id="span1"></span>
+                                    @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>ساعت خروج</label>
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="icon-clock"></i>
+                                    </span>
+                                    <input type="text" name="LeaveTime" class="form-control clockpicker">
+                                    <span id="span1"></span>
+                                    @* <input type="text" name="RegisterDate" id="RegisterDate" class="has-persian-datepicker form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" asp-page-handler="Filter" asp-page="./Create" class="btn btn-info btn-round">
+                            <i class="icon-check"></i>
+                            ثبت تردد
+                        </button>
+                        <a type="submit" class="btn btn-warning btn-round" asp-page="./Index">
+                            بازگشت به لیست ترددها
+                            <i class="icon-close"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </form>
+        </div><!-- /.portlet-body -->
+    </div><!-- /.portlet -->
+
+</div><!-- /.col-lg-6 -->
+
+
+@section persianDatepicker
+{
+    <link href="~/assets/plugins/clockpicker/dist/bootstrap-clockpicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/DatePicker/css/persianDatepicker-default.css" />
+    <script src="~/assets/plugins/clockpicker/dist/bootstrap-clockpicker.min.js"></script>
+    <script src="~/assets/js/pages/clock.js"></script>
+    <script src="~/DatePicker/js/jquery-1.10.1.min.js"></script>
+    <script src="~/DatePicker/js/persianDatepicker.min.js"></script>
+}

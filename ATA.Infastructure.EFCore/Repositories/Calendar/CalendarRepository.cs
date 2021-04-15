@@ -17,6 +17,10 @@ namespace ATA.Infastructure.EFCore.Repositories.Calendar
             _context = context;
         }
 
-   
+
+        public List<CalendarViewModel> GetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
